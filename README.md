@@ -3,6 +3,7 @@
 ## Included tools and languages in quick-setup-core.ps1
 
 - vim, wget, curl, grep, touch, 7zip
+- GNU on Windows (awk, sed, wc, etc.)
 - python 3.6 and pip
 - node.js 13.x (includes npm)
 - aws-cli and aws-mfa
