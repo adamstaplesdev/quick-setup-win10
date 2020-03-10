@@ -5,7 +5,7 @@ Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.
 scoop bucket add extras
 
 Write-Host '----- Setting up vim, curl, wget, grep, touch, 7zip, and GNU on Windows.'
-scoop install vim wget curl grep touch 7zip gow
+scoop install vim wget curl grep touch 7zip gow git
 
 Write-Host '----- Setting up python 3.'
 scoop install python
