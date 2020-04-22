@@ -1,0 +1,63 @@
+{
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "JetBrains Mono, Fira Code, monospace",
+    "editor.fontSize": 12,
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.wrappingIndent": "indent",
+    "git.autofetch": true,
+    "window.zoomLevel": 1,
+    "window.closeWhenEmpty": true,
+    "git.confirmSync": false,
+    "extensions.autoUpdate": true,
+    "terminal.integrated.cursorStyle": "underline",
+    "go.useLanguageServer": true,
+    "go.toolsEnvVars": {
+        "GO111MODULE": "on"
+    },
+    "editor.wordWrap": "on",
+    "terraform.indexing": {
+        "enabled": false,
+        "liveIndexing": false,
+        "delay": 500,
+        "exclude": [
+            ".terraform/**/*",
+            "**/.terraform/**/*"
+        ]
+    },
+    "terraform.languageServer": {
+        "enabled": true,
+        "args": []
+    },
+    "terminal.integrated.fontFamily": "monospace",
+    "debug.console.fontFamily": "Fira Code",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "powershell.promptToUpdatePowerShell": false,
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "shellLauncher.shells.windows": [
+        {
+            "shell": "C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "label": "PowerShell"
+        },
+        {
+            "shell": "%USERPROFILE%\\scoop\\shims\\pwsh.exe",
+            "label": "Pwsh"
+        },
+        {
+            "shell": "C:\\Windows\\System32\\wsl.exe",
+            "label": "WSL"
+        },
+        {
+            "shell": "C:\\Windows\\system32\\cmd.exe",
+            "label": "cmd"
+        },
+        {
+            "shell": "C:\\Program Files\\Git\\bin\\bash.exe",
+            "label": "Git bash"
+        },
+    ],
+    "editor.unfoldOnClickAfterEndOfLine": true,
+    "editor.minimap.size": "fit",
+    "editor.minimap.showSlider": "always",
+    "editor.renderWhitespace": "boundary",
+    "window.newWindowDimensions": "maximized"
+}

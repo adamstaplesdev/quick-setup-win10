@@ -12,7 +12,12 @@
 - dotnet sdk and Amazon.Lambda.Tools
 - Powershell (pwsh)
 - terraform
-- Visual Studio Code
+
+## Visual Studio Code setup (vs-code folder)
+
+- Visual Studio Code and useful extensions
+- Reference settings.json
+- TODO: Install fonts such as JetBrains Mono and Fira Code referenced in settings.json
 
 ## Included tools in quick-setup-k8s.ps1
 
