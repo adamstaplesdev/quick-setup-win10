@@ -2,9 +2,6 @@ Write-Host '----- Setting up Visual Studio Code.'
 scoop install vscode
 
 echo "----- Installing VS Code extensions for language support and other useful things"
-ms-dotnettools.csharp
-4ops.terraform
-golang.go
 code --install-extension ms-dotnettools.csharp --force
 code --install-extension k--kato.docomment --force
 code --install-extension jchannon.csharpextensions --force
